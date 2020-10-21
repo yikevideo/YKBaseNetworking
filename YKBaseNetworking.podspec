@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "ykvideo" => "yikevideo@163.com" }
   spec.platform     = :ios, "9.0"
   spec.source       = { :git => "https://github.com/yikevideo/YKBaseNetworking.git", :tag => "#{spec.version}" }
-  spec.vendored_frameworks = "*.{framework}"
+  # spec.vendored_frameworks = "*.{framework}"
   source_files      = "*.{framework}"
   spec.dependency "AFNetworking", "~> 3.0"
 
