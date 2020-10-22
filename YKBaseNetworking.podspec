@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "YKBaseNetworking"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "An IOS network development tool based on AFNetworking"
   spec.description  = "An IOS network development tool based on AF networking."
   spec.homepage     = "https://github.com/yikevideo/YKBaseNetworking.git"
@@ -19,7 +19,8 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "9.0"
   spec.source       = { :git => "https://github.com/yikevideo/YKBaseNetworking.git", :tag => "#{spec.version}" }
   # spec.vendored_frameworks = "*.{framework}"
-  source_files      = "*.{framework}"
+  # source_files      = "YKBaseNetworking/*.{framework}"
+  s.vendored_frameworks = 'YKBaseNetworking/YKBaseNetworking.framework'
   spec.dependency "AFNetworking", "~> 3.0"
 
 end
