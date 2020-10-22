@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "YKBaseNetworking"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "An IOS network development tool based on AFNetworking"
   spec.description  = "An IOS network development tool based on AF networking."
   spec.homepage     = "https://github.com/yikevideo/YKBaseNetworking.git"
